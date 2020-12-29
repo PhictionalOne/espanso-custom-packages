@@ -1,22 +1,19 @@
 # Espanso configuration file for greek letters
 
-name: custom-greek-letters
+name: greek-letters-full
 parent: default
 
 
 
 matches:
-    
+
+    ## Letter shorthand
     # :gA: ⇒ A
     - trigger: ":gA:"
       replace: "Α"
       
     # :ga: ⇒ α
     - trigger: ":ga:"
-      replace: "α"
-      
-    # :alpha: ⇒ α
-    - trigger: ":alpha:"
       replace: "α"
 
     # :gB: ⇒ Β
@@ -35,14 +32,6 @@ matches:
     - trigger: ":gd:"
       replace: "δ"
       
-    # :Delta: ⇒ Δ
-    - trigger: ":Delta:"
-      replace: "Δ"
-
-    # :delta: ⇒ δ
-    - trigger: ":delta:"
-      replace: "δ"
-      
     # :gE: ⇒ Ε
     - trigger: ":gE:"
       replace: "Ε"
@@ -58,14 +47,6 @@ matches:
     # :gf: ⇒ φ
     - trigger: ":gf:"
       replace: "φ"
-      
-    # :Phi: ⇒ Φ
-    - trigger: ":Phi:"
-      replace: "Φ"
-    
-    # :phi: ⇒ φ
-    - trigger: ":phi:"
-      replace: "φ"
     
     # :gG: ⇒ Γ
     - trigger: ":gG:"
@@ -73,14 +54,6 @@ matches:
       
     # :gg: ⇒ γ
     - trigger: ":gg:"
-      replace: "γ"
-      
-    # :Gamma: ⇒ Γ
-    - trigger: ":Gamma:"
-      replace: "Γ"
-      
-    # :gamma: ⇒ γ
-    - trigger: ":gamma:"
       replace: "γ"
       
     # :gH: ⇒ Η
@@ -122,14 +95,6 @@ matches:
     # :gl: ⇒ λ
     - trigger: ":gl:"
       replace: "λ" 
-      
-    # :Lambda: ⇒ Λ
-    - trigger: ":Lambda:"
-      replace: "Λ"
-      
-    # :lambda: ⇒ λ
-    - trigger: ":lambda:"
-      replace: "λ"
       
     # :gM: ⇒ Μ
     - trigger: ":gM:"
@@ -202,10 +167,6 @@ matches:
     # :gt: ⇒ τ
     - trigger: ":gt:"
       replace: "τ"
-      
-    # :tau: ⇒ τ
-    - trigger: ":tau:"
-      replace: "τ"
     
     # :gU: ⇒ Υ
     - trigger: ":gU:"
@@ -222,14 +183,6 @@ matches:
     # :gw: ⇒ ω
     - trigger: ":gw:"
       replace: "ω"
-        
-    # :Omega: ⇒ Ω
-    - trigger: ":Omega:"
-      replace: "Ω"
-      
-    # :omega: ⇒ ω
-    - trigger: ":omega:"
-      replace: "ω"
     
     # :gX: ⇒ Ξ
     - trigger: ":gX:"
@@ -245,14 +198,6 @@ matches:
       
     # :gy: ⇒ ψ
     - trigger: ":gy:"
-      replace: "ψ"  
-      
-    # :Psi: ⇒ Ψ
-    - trigger: ":Psi:"
-      replace: "Ψ"
-      
-    # :psi: ⇒ ψ
-    - trigger: ":psi:"
       replace: "ψ"
 
     # :gZ: ⇒ Ζ
@@ -263,3 +208,196 @@ matches:
     - trigger: ":gz:"
       replace: "ζ"
 
+    
+    ## Full name
+    # :Alpha: ⇒ Α
+    - trigger: ":Alpha:"
+      replace: "Α"
+
+    # :alpha: ⇒ α
+    - trigger: ":alpha:"
+      replace: "α"
+
+    # :Beta: ⇒ Β
+    - trigger: ":Beta:"
+      replace: "Β"
+
+    # :beta: ⇒ β
+    - trigger: ":beta:"
+      replace: "β"
+
+    # :Delta: ⇒ Δ
+    - trigger: ":Delta:"
+      replace: "Δ"
+
+    # :delta: ⇒ δ
+    - trigger: ":delta:"
+      replace: "δ"
+
+    # :Epsilon: ⇒ Ε
+    - trigger: ":Epsilon:"
+      replace: "Ε"
+
+    # :epsilon: ⇒ ε
+    - trigger: ":epsilon:"
+      replace: "ε"
+
+    # :Phi: ⇒ Φ
+    - trigger: ":Phi:"
+      replace: "Φ"
+
+    # :phi: ⇒ φ
+    - trigger: ":phi:"
+      replace: "φ"
+
+    # :Gamma: ⇒ Γ
+    - trigger: ":Gamma:"
+      replace: "Γ"
+
+    # :gamma: ⇒ γ
+    - trigger: ":gamma:"
+      replace: "γ"
+
+    # :Eta: ⇒ Η
+    - trigger: ":Eta:"
+      replace: "Η"
+
+    # :eta: ⇒ η
+    - trigger: ":eta:"
+      replace: "η"
+
+    # :Iota: ⇒ Ι
+    - trigger: ":Iota:"
+      replace: "Ι"
+
+    # :iota: ⇒ ι
+    - trigger: ":iota:"
+      replace: "ι"
+
+    # :Theta: ⇒ Θ
+    - trigger: ":Theta:"
+      replace: "Θ"
+
+    # :theta: ⇒ θ
+    - trigger: ":theta:"
+      replace: "θ"
+
+    # :Kappa: ⇒ Κ
+    - trigger: ":Kappa:"
+      replace: "Κ"
+
+    # :kappa: ⇒ κ
+    - trigger: ":kappa:"
+      replace: "κ"
+
+    # :Lambda: ⇒ Λ
+    - trigger: ":Lambda:"
+      replace: "Λ"
+
+    # :lambda: ⇒ λ
+    - trigger: ":lambda:"
+      replace: "λ"
+
+    # :Mu: ⇒ Μ
+    - trigger: ":Mu:"
+      replace: "Μ"
+
+    # :mu: ⇒ μ
+    - trigger: ":mu:"
+      replace: "μ"
+
+    # :Nu: ⇒ Ν
+    - trigger: ":Nu:"
+      replace: "Ν"
+
+    # :nu: ⇒ ν
+    - trigger: ":nu:"
+      replace: "ν"
+
+    # :Omnicron: ⇒ Ο
+    - trigger: ":Omicron:"
+      replace: "Ο"
+
+    # :omnicron: ⇒ ο
+    - trigger: ":omicron:"
+      replace: "ο"
+
+    # :Pi: ⇒ Π
+    - trigger: ":Pi:"
+      replace: "Π"
+
+    # :pi: ⇒ π
+    - trigger: ":pi:"
+      replace: "π"
+
+    # :Chi: ⇒ Χ
+    - trigger: ":Chi:"
+      replace: "Χ"
+
+    # :chi: ⇒ χ
+    - trigger: ":chi:"
+      replace: "χ"
+
+    # :Rho: ⇒ Ρ
+    - trigger: ":Rho:"
+      replace: "Ρ"
+
+    # :rho: ⇒ ρ
+    - trigger: ":rho:"
+      replace: "ρ"
+
+    # :Sigma: ⇒ Σ
+    - trigger: ":Sigma:"
+      replace: "Σ"
+
+    # :sigma: ⇒ σ
+    - trigger: ":sigma:"
+      replace: "σ"
+
+    # :Tau: ⇒ Τ
+    - trigger: ":Tau:"
+      replace: "Τ"
+
+    # :tau: ⇒ τ
+    - trigger: ":tau:"
+      replace: "τ"
+
+    # :Upsilon: ⇒ Υ
+    - trigger: ":Upsilon:"
+      replace: "Υ"
+
+    # :upsilon: ⇒ υ
+    - trigger: ":upsilon:"
+      replace: "υ"
+
+    # :Omega: ⇒ Ω
+    - trigger: ":Omega:"
+      replace: "Ω"
+
+    # :omega: ⇒ ω
+    - trigger: ":omega:"
+      replace: "ω"
+
+    # :Xi: ⇒ Ξ
+    - trigger: ":Xi:"
+      replace: "Ξ"
+
+    # :xi: ⇒ ξ
+    - trigger: ":xi:"
+      replace: "ξ"
+
+    # :Psi: ⇒ Ψ
+    - trigger: ":Psi:"
+      replace: "Ψ"
+
+    # :psi: ⇒ ψ
+    - trigger: ":psi:"
+      replace: "ψ"
+
+    # :Zeta: ⇒ Ζ
+    - trigger: ":Zeta:"
+      replace: "Ζ"
+
+    # :zeta: ⇒ ζ
+    - trigger: ":zeta:"
+      replace: "ζ"
