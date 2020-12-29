@@ -1,4 +1,5 @@
-# espanso-package-example
-An example on how to create an espanso package.
+# espanso-custom-greek-letters
 
-For more information, read the [documentation](https://espanso.org/docs/)
+Based on the original [greek-letters](https://hub.espanso.org/packages/greek-letters/).
+
+But as it interfered with other triggers I had to modify it ¯\_(ツ)_/¯

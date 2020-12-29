@@ -1,0 +1,265 @@
+# Espanso configuration file for greek letters
+
+name: custom-greek-letters
+parent: default
+
+
+
+matches:
+    
+    # :gA: ⇒ A
+    - trigger: ":gA:"
+      replace: "Α"
+      
+    # :ga: ⇒ α
+    - trigger: ":ga:"
+      replace: "α"
+      
+    # :alpha: ⇒ α
+    - trigger: ":alpha:"
+      replace: "α"
+
+    # :gB: ⇒ Β
+    - trigger: ":gB:"
+      replace: "Β"
+    
+    # :gb: ⇒ β
+    - trigger: ":gb:"
+      replace: "β"
+
+    # :gD: ⇒ Δ
+    - trigger: ":gD:"
+      replace: "Δ"
+
+    # :gd: ⇒ δ
+    - trigger: ":gd:"
+      replace: "δ"
+      
+    # :Delta: ⇒ Δ
+    - trigger: ":Delta:"
+      replace: "Δ"
+
+    # :delta: ⇒ δ
+    - trigger: ":delta:"
+      replace: "δ"
+      
+    # :gE: ⇒ Ε
+    - trigger: ":gE:"
+      replace: "Ε"
+      
+    # :ge: ⇒ ε
+    - trigger: ":ge:"
+      replace: "ε"
+      
+    # :gF: ⇒ Φ
+    - trigger: ":gF:"
+      replace: "Φ"
+    
+    # :gf: ⇒ φ
+    - trigger: ":gf:"
+      replace: "φ"
+      
+    # :Phi: ⇒ Φ
+    - trigger: ":Phi:"
+      replace: "Φ"
+    
+    # :phi: ⇒ φ
+    - trigger: ":phi:"
+      replace: "φ"
+    
+    # :gG: ⇒ Γ
+    - trigger: ":gG:"
+      replace: "Γ"
+      
+    # :gg: ⇒ γ
+    - trigger: ":gg:"
+      replace: "γ"
+      
+    # :Gamma: ⇒ Γ
+    - trigger: ":Gamma:"
+      replace: "Γ"
+      
+    # :gamma: ⇒ γ
+    - trigger: ":gamma:"
+      replace: "γ"
+      
+    # :gH: ⇒ Η
+    - trigger: ":gH:"
+      replace: "Η"
+    
+    # :gh: ⇒ η
+    - trigger: ":gh:"
+      replace: "η"
+      
+    # :gI: ⇒ Ι
+    - trigger: ":gI:"
+      replace: "Ι"
+    
+    # :gi: ⇒ ι
+    - trigger: ":gi:"
+      replace: "ι"
+      
+    # :gJ: ⇒ Θ
+    - trigger: ":gJ:"
+      replace: "Θ"
+    
+    # :gj: ⇒ θ
+    - trigger: ":gj:"
+      replace: "θ"
+
+    # :gK: ⇒ Κ
+    - trigger: ":gK:"
+      replace: "Κ"
+      
+    # :gk: ⇒ κ
+    - trigger: ":gk:"
+      replace: "κ"
+      
+    # :gL: ⇒ Λ
+    - trigger: ":gL:"
+      replace: "Λ"
+      
+    # :gl: ⇒ λ
+    - trigger: ":gl:"
+      replace: "λ" 
+      
+    # :Lambda: ⇒ Λ
+    - trigger: ":Lambda:"
+      replace: "Λ"
+      
+    # :lambda: ⇒ λ
+    - trigger: ":lambda:"
+      replace: "λ"
+      
+    # :gM: ⇒ Μ
+    - trigger: ":gM:"
+      replace: "Μ"
+    
+    # :gm: ⇒ μ
+    - trigger: ":gm:"
+      replace: "μ"
+    
+    # :gN: ⇒ Ν
+    - trigger: ":gN:"
+      replace: "Ν"
+      
+    # :gn: ⇒ ν
+    - trigger: ":gn:"
+      replace: "ν"
+    
+    # :gO: ⇒ Ο
+    - trigger: ":gO:"
+      replace: "Ο"
+      
+    # :go: ⇒ ο
+    - trigger: ":go:"
+      replace: "ο"
+      
+    # :gP: ⇒ Π
+    - trigger: ":gP:"
+      replace: "Π"
+      
+    # :gp: ⇒ π
+    - trigger: ":gp:"
+      replace: "π"
+      
+    # :pi: ⇒ π
+    - trigger: ":pi:"
+      replace: "π"
+      
+    # :gQ: ⇒ Χ
+    - trigger: ":gQ:"
+      replace: "Χ"
+      
+    # :gq: ⇒ χ
+    - trigger: ":gq:"
+      replace: "χ"
+      
+    # :gR: ⇒ Ρ
+    - trigger: ":gR:"
+      replace: "Ρ"
+    
+    # :gr: ⇒ ρ
+    - trigger: ":gr:"
+      replace: "ρ"
+      
+    # :rho: ⇒ ρ
+    - trigger: ":rho:"
+      replace: "ρ"
+    
+    # :gS: ⇒ Σ
+    - trigger: ":gS:"
+      replace: "Σ"
+    
+    # :gs: ⇒ σ
+    - trigger: ":gs:"
+      replace: "σ"
+      
+    # :gT: ⇒ Τ
+    - trigger: ":gT:"
+      replace: "Τ"
+    
+    # :gt: ⇒ τ
+    - trigger: ":gt:"
+      replace: "τ"
+      
+    # :tau: ⇒ τ
+    - trigger: ":tau:"
+      replace: "τ"
+    
+    # :gU: ⇒ Υ
+    - trigger: ":gU:"
+      replace: "Υ"
+      
+    # :gu: ⇒ υ
+    - trigger: ":gu:"
+      replace: "υ"
+      
+    # :gW: ⇒ Ω
+    - trigger: ":gW:"
+      replace: "Ω"
+      
+    # :gw: ⇒ ω
+    - trigger: ":gw:"
+      replace: "ω"
+        
+    # :Omega: ⇒ Ω
+    - trigger: ":Omega:"
+      replace: "Ω"
+      
+    # :omega: ⇒ ω
+    - trigger: ":omega:"
+      replace: "ω"
+    
+    # :gX: ⇒ Ξ
+    - trigger: ":gX:"
+      replace: "Ξ"
+      
+    # :gx: ⇒ ξ
+    - trigger: ":gx:"
+      replace: "ξ"
+      
+    # :gY: ⇒ Ψ
+    - trigger: ":gY:"
+      replace: "Ψ"
+      
+    # :gy: ⇒ ψ
+    - trigger: ":gy:"
+      replace: "ψ"  
+      
+    # :Psi: ⇒ Ψ
+    - trigger: ":Psi:"
+      replace: "Ψ"
+      
+    # :psi: ⇒ ψ
+    - trigger: ":psi:"
+      replace: "ψ"
+
+    # :gZ: ⇒ Ζ
+    - trigger: ":gZ:"
+      replace: "Ζ"
+
+    # :gz: ⇒ ζ
+    - trigger: ":gz:"
+      replace: "ζ"
+
