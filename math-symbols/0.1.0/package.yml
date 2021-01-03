@@ -1,0 +1,129 @@
+# Math
+
+name: Math Symbols
+parent: default
+
+matches:
+  # Boolean operaitons
+  - trigger: ":and"
+    replace: "∧"
+
+  - trigger: ":or"
+    replace: "∨"
+ 
+  - trigger: ":xor"
+    replace: "⩛"
+ 
+
+  # Propositions
+  - trigger: ":not"
+    replace: "¬"
+
+  - trigger: ":impl"
+    replace: "⇒"
+
+  - trigger: ":equiv"
+    replace: "⇔"
+  
+
+  # Sets
+  - trigger: ":forall"
+    replace: "∀"
+
+  - trigger: ":exist"
+    replace: "∃"
+
+  - trigger: ":inset"
+    replace: "∈"
+      
+  - trigger: ":notin"
+    replace: "∉"
+
+  - trigger: ":niset"
+    replace: "∋"
+
+  - trigger: ":notni"
+    replace: "∌"
+
+  - trigger: ":subset"
+    replace: "⊂"
+
+  - trigger: ":subseq"
+    replace: "⊆"
+
+  - trigger: ":supset"
+    replace: "⊃"
+
+  - trigger: ":supseq"
+    replace: "⊇"
+
+  - trigger: ":union"
+    replace: "∪"
+
+  - trigger: ":intersect"
+    replace: "∩"
+
+
+  # Comparisons
+  - trigger: ":neq"
+    replace: "≠"
+
+  - trigger: ":leg"
+    replace: "≤"
+
+  - trigger: ":geq"
+    replace: "≥"
+
+  - trigger: ":gg"
+    replace: "≫"
+
+  - trigger: ":ll"
+    replace: "≪"
+
+  - trigger: ":cong"
+    replace: "≡"
+
+  - trigger: ":approx"
+    replace: "≈"
+
+
+  # Proofs
+  - trigger: ":therefore"
+    replace: "∴"
+
+  - trigger: ":because"
+    replace: "∵"
+
+  - trigger: ":qed"
+    replace: "■"
+
+
+  # Misc
+  - trigger: ":sqrt"
+    replace: "√"
+
+  - trigger: ":sum"
+    replace: "∑"
+
+  - trigger: ":integral"
+    replace: "∫"
+
+  - trigger: ":dagger"
+    replace: "†"
+
+  - trigger: ":infty"
+    replace: "∞"
+
+  - trigger: ":leftarrow"
+    replace: "←"
+
+  - trigger: ":rightarrow"
+    replace: "→"
+
+  # CompSci stuff
+  - trigger: ":[[:"
+    replace: "⟦"
+
+  - trigger: ":]]:"
+    replace: "⟧"
+

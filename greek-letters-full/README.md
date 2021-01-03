@@ -4,7 +4,7 @@ package_title: "Greek letters"
 package_desc: "A modified version of greek-letters and greek-letters-alt to include a dangling `:`"
 package_version: "0.1.0"
 package_author: "PhictionalOne"
-package_repo: "https://github.com/PhictionalOne/espanso-custom-greek-letters"
+package_repo: "https://github.com/PhictionalOne/espanso-custom-packages"
 ---
 
 Based on the packages [Greek Letters: Upper and Lower](https://hub.espanso.org/packages/greek-letters/) and [Greek Letters alt](https://github.com/Su-Well/espanso-package-greek-letters)
