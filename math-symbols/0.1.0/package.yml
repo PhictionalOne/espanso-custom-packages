@@ -68,7 +68,7 @@ matches:
   - trigger: ":neq"
     replace: "≠"
 
-  - trigger: ":leg"
+  - trigger: ":leq"
     replace: "≤"
 
   - trigger: ":geq"
@@ -102,6 +102,9 @@ matches:
   - trigger: ":sqrt"
     replace: "√"
 
+  - trigger: ":check"
+    replace: "✓"
+
   - trigger: ":sum"
     replace: "∑"
 
@@ -114,11 +117,24 @@ matches:
   - trigger: ":infty"
     replace: "∞"
 
+  # Arrows
+  - trigger: ":uparrow"
+    replace: "↑"
+
+  - trigger: ":downarrow"
+    replace: "↓"
+
   - trigger: ":leftarrow"
     replace: "←"
 
   - trigger: ":rightarrow"
     replace: "→"
+
+  - trigger: ":rsquig"
+    replace: "⇝"
+
+  - trigger: ":lsquig"
+    replace: "⇜"
 
   # CompSci stuff
   - trigger: ":[[:"
