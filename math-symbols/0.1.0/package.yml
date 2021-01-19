@@ -117,6 +117,9 @@ matches:
   - trigger: ":infty"
     replace: "∞"
 
+  - trigger: ":bolt"
+    replace: "↯"
+
   # Arrows
   - trigger: ":uparrow"
     replace: "↑"
@@ -135,6 +138,9 @@ matches:
 
   - trigger: ":lsquig"
     replace: "⇜"
+
+  - trigger: ":mapsto"
+    replace: "↦"
 
   # CompSci stuff
   - trigger: ":[[:"
