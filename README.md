@@ -20,3 +20,11 @@ Based on the original `math` package. But with more symbols.
 espanso install math-symbols https://github.com/PhictionalOne/espanso-custom-packages.git --external
 ```
 
+## Enumeration
+
+A package for encircled numbers like ④⓴ (hihi)
+
+### Install
+```
+espanso install enumeration https://github.com/PhictionalOne/espanso-custom-packages.git --external
+```
