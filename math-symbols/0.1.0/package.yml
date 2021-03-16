@@ -19,10 +19,10 @@ matches:
   - trigger: ":not"
     replace: "¬"
 
-  - trigger: ":impl"
+  - triggers: [":impl", ":==>"]
     replace: "⇒"
 
-  - trigger: ":equiv"
+  - triggers: [":equiv", ":<=>"]
     replace: "⇔"
   
 
@@ -65,25 +65,25 @@ matches:
 
 
   # Comparisons
-  - trigger: ":neq"
+  - triggers: [":neq", ":!="]
     replace: "≠"
 
-  - trigger: ":leq"
+  - triggers: [":leq", ":<="]
     replace: "≤"
 
-  - trigger: ":geq"
+  - triggers: [":geq", ":>="]
     replace: "≥"
 
-  - trigger: ":gg"
+  - triggers: [":gg", ":>>"]
     replace: "≫"
 
-  - trigger: ":ll"
+  - triggers: [":ll", ":<<"]
     replace: "≪"
 
   - trigger: ":cong"
     replace: "≡"
 
-  - trigger: ":approx"
+  - triggers: [":approx", ":~="]
     replace: "≈"
 
 
@@ -94,7 +94,7 @@ matches:
   - trigger: ":because"
     replace: "∵"
 
-  - trigger: ":qed"
+  - triggers: [":qed", ":kstn", ":box"]
     replace: "■"
 
 
@@ -117,29 +117,32 @@ matches:
   - trigger: ":infty"
     replace: "∞"
 
-  - trigger: ":bolt"
+  - trigger: ":pm"
+    replace: "±"
+
+  - triggers: [":bolt", ":lightning"]
     replace: "↯"
 
   # Arrows
-  - trigger: ":uparrow"
+  - triggers: [":uparrow", ":|^"]
     replace: "↑"
 
-  - trigger: ":downarrow"
+  - triggers: [":downarrow", ":|v"]
     replace: "↓"
 
-  - trigger: ":leftarrow"
+  - triggers: [":leftarrow", ":<-"]
     replace: "←"
 
-  - trigger: ":rightarrow"
+  - triggers: [":rightarrow", ":->"]
     replace: "→"
 
-  - trigger: ":rsquig"
+  - triggers: [":rsquig", ":~>"]
     replace: "⇝"
 
-  - trigger: ":lsquig"
+  - triggers: [":lsquig", ":<~"]
     replace: "⇜"
 
-  - trigger: ":mapsto"
+  - triggers: [":mapsto", ":|->"]
     replace: "↦"
 
   # CompSci stuff
