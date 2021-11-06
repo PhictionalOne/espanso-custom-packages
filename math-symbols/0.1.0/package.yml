@@ -184,7 +184,7 @@ matches:
   - triggers: [":rightuparrow", ":/^"]
     replace: "↗"
 
-  - triggers: [":rightdownarrow", "‚\\v"]
+  - triggers: [":rightdownarrow", ":\\v"]
     replace: "↘"
 
   - triggers: [":rsquig", ":~>"]
